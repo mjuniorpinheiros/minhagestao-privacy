@@ -1,33 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><title>Política de Privacidade - Minha Gestão</title></head>
-<body style="font-family:Arial;max-width:800px;margin:40px auto;padding:20px">
-<h1>Política de Privacidade — Minha Gestão</h1>
-<p><strong>Última atualização:</strong> junho de 2026</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — MinhaGestão</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f7f9fc;
+      color: #2c3e50;
+      line-height: 1.7;
+    }
+    header {
+      background: #1E3A5F;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+    header p  { font-size: 14px; opacity: 0.75; }
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1E3A5F;
+      margin: 36px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e8ecef;
+    }
+    p  { margin-bottom: 14px; font-size: 15px; }
+    ul { margin: 0 0 14px 20px; }
+    ul li { margin-bottom: 6px; font-size: 15px; }
+    a  { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border: 1px solid #e8ecef;
+    }
+    .card h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; color: #1E3A5F; }
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      background: #eef5ff;
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #7f8c8d;
+      border-top: 1px solid #e8ecef;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
 
-<h2>1. Dados coletados</h2>
-<p>O Minha Gestão coleta apenas os dados necessários para o funcionamento do app:</p>
-<ul>
-<li>Email e nome (via login Google ou email/senha) para autenticação</li>
-<li>Dados financeiros, tarefas, eventos e registros de tempo inseridos pelo usuário</li>
-</ul>
+<header>
+  <h1>⚡ MinhaGestão</h1>
+  <p>Política de Privacidade</p>
+</header>
 
-<h2>2. Uso dos dados</h2>
-<p>Os dados são usados exclusivamente para fornecer as funcionalidades do app. Não vendemos nem compartilhamos seus dados com terceiros.</p>
+<main>
 
-<h2>3. Armazenamento</h2>
-<p>Os dados ficam armazenados localmente no dispositivo e, quando sincronizados, no Firebase (Google Cloud) com criptografia.</p>
+  <p>Esta Política de Privacidade descreve como o aplicativo <strong>MinhaGestão</strong> coleta, usa, armazena e protege as informações dos usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</p>
 
-<h2>4. Anúncios</h2>
-<p>A versão gratuita exibe anúncios via Google AdMob. O AdMob pode coletar dados de uso conforme sua própria política de privacidade.</p>
+  <p><strong>Última atualização:</strong> 26 de junho de 2026.</p>
 
-<h2>5. Assinatura Premium</h2>
-<p>O pagamento da assinatura é processado pela Google Play. Não armazenamos dados de cartão de crédito.</p>
+  <h2>1. Quem somos</h2>
+  <p>O MinhaGestão é desenvolvido por <strong>Studios MJ</strong>, empresa individual com sede em Salvador, Bahia, Brasil. Somos o controlador dos dados pessoais tratados por este aplicativo.</p>
+  <p>Contato: <a href="mailto:controlhub.br@gmail.com">controlhub.br@gmail.com</a></p>
 
-<h2>6. Seus direitos</h2>
-<p>Você pode excluir sua conta e todos os dados a qualquer momento nas configurações do app.</p>
+  <h2>2. Dados coletados</h2>
 
-<h2>7. Contato</h2>
-<p>Dúvidas: m.juniorpinheiros@gmail.com</p>
+  <div class="card">
+    <span class="badge">Conta</span>
+    <h3>Dados de autenticação</h3>
+    <ul>
+      <li>Endereço de e-mail</li>
+      <li>Nome de exibição (quando fornecido)</li>
+      <li>Identificador único de usuário (UID gerado pelo Firebase)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <span class="badge">Dados do App</span>
+    <h3>Conteúdo criado pelo usuário</h3>
+    <ul>
+      <li><strong>Tempo:</strong> registros de atividades, duração, categorias e configurações do Pomodoro</li>
+      <li><strong>Agenda:</strong> eventos, datas, horários e descrições</li>
+      <li><strong>Financeiro:</strong> lançamentos de receitas e despesas, categorias e metas de economia</li>
+      <li><strong>Atividades:</strong> tarefas, prioridades, prazos e anexos de fotos/arquivos</li>
+    </ul>
+    <p>Esses dados são armazenados na nuvem (Firebase Firestore) e sincronizados entre dispositivos do mesmo usuário.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Publicidade</span>
+    <h3>Dados de anúncios (somente usuários gratuitos)</h3>
+    <p>Usuários sem assinatura premium visualizam anúncios gerenciados pelo <strong>Google AdMob</strong>. O AdMob pode coletar:</p>
+    <ul>
+      <li>Identificador de publicidade do dispositivo (pode ser redefinido nas configurações)</li>
+      <li>Dados de interação com anúncios</li>
+      <li>Informações técnicas do dispositivo (modelo, sistema operacional)</li>
+    </ul>
+    <p>Consulte a <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a> para mais detalhes.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Assinaturas</span>
+    <h3>Dados de compras (usuários premium)</h3>
+    <p>As assinaturas são processadas pelo <strong>RevenueCat</strong> em conjunto com o <strong>Google Play Billing</strong>. Dados relacionados a compras incluem:</p>
+    <ul>
+      <li>Status da assinatura (ativa, expirada, cancelada)</li>
+      <li>Identificador de transação (sem dados de cartão — processado pelo Google)</li>
+    </ul>
+    <p>Consulte a <a href="https://www.revenuecat.com/privacy" target="_blank">Política de Privacidade do RevenueCat</a>.</p>
+  </div>
+
+  <h2>3. Como usamos os dados</h2>
+  <ul>
+    <li>Autenticar e identificar sua conta com segurança</li>
+    <li>Sincronizar seus dados entre dispositivos</li>
+    <li>Fornecer as funcionalidades do aplicativo (registros, agenda, finanças, tarefas)</li>
+    <li>Gerenciar sua assinatura premium</li>
+    <li>Exibir anúncios relevantes (somente usuários gratuitos)</li>
+    <li>Melhorar o desempenho e corrigir erros do aplicativo</li>
+  </ul>
+  <p><strong>Não vendemos seus dados pessoais</strong> a terceiros para fins de marketing ou publicidade.</p>
+
+  <h2>4. Compartilhamento de dados</h2>
+  <p>Compartilhamos dados apenas com os seguintes prestadores de serviço, estritamente necessários para o funcionamento do aplicativo:</p>
+
+  <table style="width:100%;border-collapse:collapse;font-size:14px;margin-bottom:16px">
+    <thead>
+      <tr style="background:#1E3A5F;color:#fff">
+        <th style="padding:10px 12px;text-align:left">Serviço</th>
+        <th style="padding:10px 12px;text-align:left">Finalidade</th>
+        <th style="padding:10px 12px;text-align:left">Política</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #e8ecef">
+        <td style="padding:10px 12px">Firebase (Google)</td>
+        <td style="padding:10px 12px">Autenticação e banco de dados</td>
+        <td style="padding:10px 12px"><a href="https://firebase.google.com/support/privacy" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="border-bottom:1px solid #e8ecef;background:#f7f9fc">
+        <td style="padding:10px 12px">Google AdMob</td>
+        <td style="padding:10px 12px">Exibição de anúncios</td>
+        <td style="padding:10px 12px"><a href="https://policies.google.com/privacy" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="border-bottom:1px solid #e8ecef">
+        <td style="padding:10px 12px">RevenueCat</td>
+        <td style="padding:10px 12px">Gerenciamento de assinaturas</td>
+        <td style="padding:10px 12px"><a href="https://www.revenuecat.com/privacy" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="background:#f7f9fc">
+        <td style="padding:10px 12px">Google Play Billing</td>
+        <td style="padding:10px 12px">Processamento de pagamentos</td>
+        <td style="padding:10px 12px"><a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=pt-BR" target="_blank">Ver</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>5. Armazenamento e segurança</h2>
+  <p>Seus dados são armazenados nos servidores do <strong>Google Firebase</strong>, com infraestrutura localizada principalmente nos Estados Unidos e na Europa, com altos padrões de segurança (criptografia em trânsito e em repouso, controle de acesso por autenticação).</p>
+  <p>O acesso aos seus dados é restrito exclusivamente à sua conta. Nenhum outro usuário pode visualizar suas informações.</p>
+
+  <h2>6. Retenção de dados</h2>
+  <ul>
+    <li><strong>Dados da conta e conteúdo:</strong> mantidos enquanto sua conta estiver ativa</li>
+    <li><strong>Após exclusão da conta:</strong> dados removidos do Firestore em até 30 dias</li>
+    <li><strong>Dados de publicidade:</strong> gerenciados conforme a política do Google AdMob</li>
+  </ul>
+
+  <h2>7. Seus direitos (LGPD)</h2>
+  <p>Conforme a Lei Geral de Proteção de Dados, você tem direito a:</p>
+  <ul>
+    <li><strong>Acesso:</strong> solicitar uma cópia dos seus dados pessoais</li>
+    <li><strong>Correção:</strong> atualizar dados incorretos ou desatualizados</li>
+    <li><strong>Exclusão:</strong> solicitar a remoção dos seus dados</li>
+    <li><strong>Portabilidade:</strong> receber seus dados em formato estruturado</li>
+    <li><strong>Revogação do consentimento:</strong> cancelar o uso de dados a qualquer momento</li>
+    <li><strong>Oposição:</strong> opor-se a determinados tratamentos de dados</li>
+  </ul>
+  <p>Para exercer qualquer um desses direitos, entre em contato pelo e-mail: <a href="mailto:controlhub.br@gmail.com">controlhub.br@gmail.com</a></p>
+  <p>Dentro do próprio aplicativo, você pode excluir sua conta nas <strong>Configurações → Conta → Excluir conta</strong>, o que remove todos os seus dados.</p>
+
+  <h2>8. Crianças</h2>
+  <p>O MinhaGestão não é destinado a crianças menores de 13 anos. Não coletamos intencionalmente dados de menores. Se você identificar que uma criança nos forneceu dados sem consentimento parental, entre em contato para que possamos removê-los.</p>
+
+  <h2>9. Permissões do aplicativo</h2>
+  <ul>
+    <li><strong>Internet:</strong> necessário para sincronização com a nuvem e exibição de anúncios</li>
+    <li><strong>Câmera / Galeria:</strong> utilizado para anexar fotos às tarefas (somente quando solicitado)</li>
+    <li><strong>Notificações:</strong> para lembretes do Pomodoro e alarmes configurados pelo usuário</li>
+    <li><strong>Armazenamento:</strong> para salvar arquivos anexados às tarefas</li>
+  </ul>
+
+  <h2>10. Alterações nesta política</h2>
+  <p>Podemos atualizar esta política periodicamente. Alterações significativas serão comunicadas por meio de notificação no aplicativo. A data de última atualização está sempre indicada no início deste documento.</p>
+
+  <h2>11. Contato</h2>
+  <p>Para dúvidas, solicitações ou reclamações sobre privacidade:</p>
+  <ul>
+    <li><strong>E-mail:</strong> <a href="mailto:controlhub.br@gmail.com">controlhub.br@gmail.com</a></li>
+    <li><strong>Desenvolvedor:</strong> Studios MJ — Salvador, Bahia, Brasil</li>
+  </ul>
+
+</main>
+
+<footer>
+  &copy; 2026 Studios MJ · MinhaGestão · Todos os direitos reservados
+</footer>
+
 </body>
 </html>
